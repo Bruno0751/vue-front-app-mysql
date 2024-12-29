@@ -8,8 +8,8 @@ export default {
   props: {
     tipo: {
       type: String,
-      required: true
-      //   default: 'text'
+      required: true,
+      default: 'text'
     //   validator (value) {
     //     return ['text', 'file', 'email'].includes(value)
     //   }

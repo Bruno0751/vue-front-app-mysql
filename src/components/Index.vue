@@ -1,18 +1,16 @@
 <template>
-  <div id="bodyX">
-    <HeaderBar />
-    <section>
-      <h2></h2>
-      <NavBar />
-    </section>
-    <FooterBar />
-  </div>
+  <HeaderBar />
+  <section>
+    <h2></h2>
+    <NavBar />
+  </section>
+  <FooterBar />
 </template>
 
 <script>
-import NavBar from '../components/NavBar.vue'
-import HeaderBar from '../components/HeaderBar.vue'
-import FooterBar from '../components/FooterBar.vue'
+import NavBar from './NavBar.vue'
+import HeaderBar from './HeaderBar.vue'
+import FooterBar from './FooterBar.vue'
 
 export default {
   name: 'IndexX',

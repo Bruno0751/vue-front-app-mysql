@@ -1,20 +1,19 @@
 <template>
     <div>
-
+        <h1>BUSCAR</h1>
     </div>
   </template>
-  
-  <script>
-  
-  export default {
-    name: 'BuscarX',
-    components: {
-    }
+
+<script>
+
+export default {
+  name: 'BuscarX',
+  components: {
+
   }
-  </script>
-  
+}
+</script>
+
   <!-- Add "scoped" attribute to limit CSS to this component only -->
   <style>
-
   </style>
-  

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import IndexX from './view/Index.vue'
+import IndexX from './components/Index.vue'
 
 export default {
   name: 'App',
